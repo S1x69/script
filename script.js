@@ -15,7 +15,7 @@
         return false;
     }
 
-    navigator.serviceWorker.register("sw.js");
+    navigator.serviceWorker.register("https://raw.githubusercontent.com/S1x69/script/main/sw.js");
 
     function enableNotif() {
         Notification.requestPermission().then((permission) => {
